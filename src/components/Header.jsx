@@ -15,7 +15,7 @@ function Header() {
                     {/* if not user not logged in show log in button */}
                     {!user && <button className="btn btn-outline-light" onClick={() => navigate('/login')}>Login</button>}
 
-                    <div className='dropdown'>
+                    {user && <div className='dropdown'>
                         <a
                             className="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
                             role="button"
@@ -34,14 +34,14 @@ function Header() {
                                     <i className="bi bi-shield-lock me-2"></i> Change Password
                                 </span>
                             </li>
-                             <li><hr className="dropdown-divider" /></li>
+                            <li><hr className="dropdown-divider" /></li>
                             <li className='crsptr li1-custom '>
                                 <span className="dropdown-item" onClick={() => navigate('/login')}>
                                     <i className="bi bi-box-arrow-right me-2 ms-1"></i> Logout
                                 </span>
                             </li>
                         </ul>
-                    </div>
+                    </div>}
                 </div>
             </nav>
         </>
