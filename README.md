@@ -1,4 +1,4 @@
-# Chaintech Network React Practical 🧩
+# Chaintech Network React Practical 
 
 A simple React-based web application built as part of the **Chaintech Network React Practical Assignment**.  
 The app allows users to register, log in, view, and update their account information — demonstrating form handling, validation, local storage integration, and navigation using React Router.
@@ -45,23 +45,23 @@ The app allows users to register, log in, view, and update their account informa
 
 ## ⚙️ Installation & Setup
 
-1. Clone the repository:
+1. **Clone the repository:**
     ```bash
     git clone https://github.com/yash-kanada/Chaintech-Network-React-Practical.git
     ```
-2. Navigate to the project folder:
+2. **Navigate to the project folder:**
     ```bash
     cd Chaintech-Network-React-Practical
     ```
-3. Install dependencies:
+3. **Install dependencies:**
     ```bash
     npm install
     ```
-4.  Start the app:
+4.  **Start the app:**
     ```bash
     npm run dev
     ```
-5. Open in browser:
+5. **Open in browser:**
     ```bash
     http://localhost:6039/
     ```    
