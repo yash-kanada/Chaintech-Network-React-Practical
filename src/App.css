@@ -1,0 +1,18 @@
+.crsptr{
+    cursor: pointer;
+}
+
+/* to avoid default dropdown style of bootstrap */
+.li-custom{
+    .dropdown-item:hover{
+        color: rgba(0, 0, 0, 0.5);
+        background-color: white ;
+    }
+}
+
+.li1-custom{
+    .dropdown-item:hover{
+        color: red;
+        background-color: white ;
+    }
+}
