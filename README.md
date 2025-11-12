@@ -1,16 +1,104 @@
-# React + Vite
+# Chaintech Network React Practical 🧩
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based web application built as part of the **Chaintech Network React Practical Assignment**.  
+The app allows users to register, log in, view, and update their account information — demonstrating form handling, validation, local storage integration, and navigation using React Router.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **User Registration:**  
+  Users can register by entering their name, email, and password.  
+  Validation ensures all fields are filled and passwords match.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **User Login:**  
+  Users can log in using saved credentials (stored in LocalStorage).  
+  Proper error handling for invalid credentials.
 
-## Expanding the ESLint configuration
+- **Profile Page:**  
+  Displays stored user information (name, email).  
+  Includes an option to edit and update details.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Change Password:**  
+  Allows the user to change their password securely with matching confirmation validation.
+
+- **Form Validation & Feedback:**  
+  Real-time validation and user feedback using `react-toastify`.
+
+- **Responsive Design:**  
+  Fully responsive layout using Bootstrap 5 classes.
+
+---
+
+## 🧠 Tech Stack
+
+| Technology           | Purpose                         |
+| -------------------- | ------------------------------- |
+| **React.js (v18)**   | Frontend framework              |
+| **React Router DOM** | Navigation & Routing            |
+| **Bootstrap 5**      | Styling & layout                |
+| **Bootstrap Icons**  | Icons for UI                    |
+| **React Toastify**   | Notifications / Toast messages  |
+| **LocalStorage API** | Temporary user data persistence |
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yash-kanada/Chaintech-Network-React-Practical.git
+    ```
+2. Navigate to the project folder:
+    ```bash
+    cd Chaintech-Network-React-Practical
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4.  Start the app:
+    ```bash
+    npm run dev
+    ```
+5. Open in browser:
+    ```bash
+    http://localhost:6039/
+    ```    
+
+---
+
+## 🧩 Folder Structure
+
+```
+src/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│
+├── pages/
+│   ├── Register.jsx
+│   ├── Login.jsx
+│   ├── Profile.jsx
+│   ├── ChangePW.jsx
+│
+├── App.jsx
+├── App.css
+├── main.jsx
+```
+
+---
+
+## 👨‍💻 Developer
+
+**Yash Kanada**  
+React.js Developer  
+📧 [Email me](mailto:yashkanada123@gmail.com)  
+🌐 [GitHub Profile](https://github.com/yash-kanada)
+
+---
+
+### 🏁 Conclusion
+
+This project demonstrates my ability to build functional, modular, and user-friendly React applications following best practices and modern web standards.
