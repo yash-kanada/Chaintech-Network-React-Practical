@@ -51,7 +51,7 @@ The app allows users to register, log in, view, and update their account informa
     ```
 2. **Navigate to the project folder:**
     ```bash
-    cd Chaintech-Network-React-Practical
+    cd Aookly-React-Task
     ```
 3. **Install dependencies:**
     ```bash
@@ -94,7 +94,7 @@ src/
 
 **Yash Kanada**  
 React.js Developer  
-📧 [Email me](mailto:yashkanada123@gmail.com)  
+📧 [Email me](mailto:yashkanada2004@gmail.com)  
 🌐 [GitHub Profile](https://github.com/yash-kanada)
 
 ---
